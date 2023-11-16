@@ -14,6 +14,7 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import User from "./Components/User/User";
 import Github, { githubinfo } from "./Components/Github/Github";
+import Discord from "./Components/Discord/Discord";
 
 
 // 1st way:
@@ -47,6 +48,7 @@ const router = createBrowserRouter(
     <Route path="about" element={<About />} />
     <Route path="contact" element={<Contact />} />
     <Route path="user/:id" element={<User />} />
+    <Route path="discord" element={<Discord />} />
     <Route 
     path="github" 
     element={<Github />}
